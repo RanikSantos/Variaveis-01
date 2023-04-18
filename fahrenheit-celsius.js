@@ -1,4 +1,4 @@
-let f = 73;
-let C = (f - 32) / 1.8
+const f = 73;
+const c = (f - 32) * 5 / 9;
 
-console.log(`Agora é ${C} graus celsius`);
+console.log(`Agora é ${c} graus celsius`);
