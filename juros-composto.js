@@ -1,7 +1,8 @@
 
-let c = 1000;
-let i = 0.125;
-let t = 5;
-let a = 1
+const capital = 1000;
+const taxa = 12.5/100;
+const tempo = 5;
 
-console.log(`Resultado ${c(r + i)^t}`);
+const montante = capital * (1+taxa) ** tempo
+
+console.log(montante);
