@@ -1,4 +1,6 @@
-let p = 65;
-let a = 1.64
+const p = 65;
+const a = 1.64
 
-console.log(`O IMC é ${p / (a * a )}`);
+const imc = p / Math.pow(a,2)
+
+console.log(`Seu IMC é ${imc}`);
