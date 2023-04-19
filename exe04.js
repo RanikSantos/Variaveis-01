@@ -1,3 +1,4 @@
+// Calculando juros composto
 
 const capital = 1000;
 const taxa = 12.5/100;
